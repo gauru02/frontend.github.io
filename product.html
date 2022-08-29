@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALL Products</title>
+    
+    <link rel="stylesheet" href="shops.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    
+</head>
+<body>
+    
+    <div class="header">
+        <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="shopping-cart.png" width="80px">
+            </div>
+            <nav>
+                <ul id="menuitem">
+                    <li> <a href="D:\mini project\html css of website\index.html">home</a></li>
+                    <li> <a href="D:\mini project\html css of website\login1.html">Login</a></li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Register</button>
+                        <div class="dropdown-content">
+                          <a href="Register.html">Register as customer</a>
+                          <a href="SellerRegister.html">Register as Seller </a>
+                        </div>
+                      </div>
+                   
+                    <li> <a href="">about </a></li>
+                    <li> <a href="">contact </a></li>
+                    
+    
+                </ul>
+            </nav>
+        <img src="D:\mini project\html css of website\menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+</div>
+</div>
+
+
+            <h2 class="title"> ALL Shops</h2>
+            <div class="card">
+                <img src="" alt="" style="width:100%">
+                <h1>"Shop Name"</h1>
+                <p class="price">some Discripton</p>
+                <p>Some text about the ahop</p>
+                <p><button>Open</button></p>
+              </div>
+              <div class="card">
+                <img src="" alt="" style="width:100%">
+                <h1>Tailored Jeans</h1>
+                <p class="price">$19.99</p>
+                <p>Some text about the jeans..</p>
+                <p><button>Add to Cart</button></p>
+              </div>
+        </div>
+
+    </div>
+
+
+<script>
+    var menuitem = document.getElementById("menuitem");
+    menuitem.style.maxHeight="0px";
+    function menutoggle(){
+        if(menuitem.style.maxHeight=='0px')
+        {
+            menuitem.style.maxHeight='200px'
+        }
+        else{
+            menuitem.style.maxHeight="0px" ;
+        }
+    }
+    
+    
+</script>
+
+</body>
+</html>

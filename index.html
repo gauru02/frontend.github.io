@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="shopping-cart.png" width="80px">
+        </div>
+        <nav>
+            <ul id="menuitem">
+                <li> <a href="D:\mini project\html css of website\login1.html">Login</a></li>
+                <div class="dropdown">
+					<button class="dropbtn">shops</button>
+					<div class="dropdown-content">
+					  <a href="D:\mini project\html css of website\product.html">Cloths</a>
+					 
+					</div>
+				  </div>
+                <li> <a href="">about </a></li>
+                <li> <a href="">contact </a></li>
+               
+
+            </ul>
+        </nav>
+        <img src="D:\mini project\html css of website\menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <h1> Give your workout<br> A new style!</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  
+            </p>
+            <a href=""class="btn">Explore Now &#8594;</a>
+        </div>
+        <div class="col-2">
+            <img src="D:\mini project\html css of website\—Pngtree—shopping on mobile_5354478.png" >
+        </div>
+    </div>
+</div>
+</div>
+<script>
+    var menuitem = document.getElementById("menuitem");
+    menuitem.style.maxHeight="0px";
+    function menutoggle(){
+        if(menuitem.style.maxHeight=='0px')
+        {
+            menuitem.style.maxHeight='200px'
+        }
+        else{
+            menuitem.style.maxHeight="0px" ;
+        }
+    }
+    
+    
+</script>
+
+</body>
+</html>
